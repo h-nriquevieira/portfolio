@@ -1,5 +1,14 @@
 header {
     padding: 2rem .75rem;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.container {
+  width: min(100%, 900px);
+
 }
 
 h1 {
@@ -32,4 +41,25 @@ h1 {
     font-size: 1rem;
     padding: .5rem 1rem;
     cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .header--pre-title {
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      margin: .25rem 0 2rem;
+    }
+
+    .header--subtitle,
+    .header--btn {
+      font-size: 1.25rem;
+    }
+
+    .header--btn {
+      padding: .75rem 1.5rem;
+      margin-top: 3rem;
+    }
 }

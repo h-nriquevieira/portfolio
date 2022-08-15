@@ -1,0 +1,50 @@
+.contato {
+    display: grid;
+    place-items: center;
+    background-color: #EDF7FA;
+    padding: 2rem .75rem;
+}
+
+.contato * {
+  margin: 0;
+}
+
+.contato--title {
+  font-size: 2rem;
+  color: #0A2A42;
+  line-height: 150%;
+  margin-bottom: 1.5rem;
+}
+
+.contato--text {
+  font-size: 1rem;
+}
+
+.contato--text:first-of-type {
+  margin-bottom: .5rem;
+}
+
+.contato--text:last-of-type {
+  margin-top: .75rem;
+}
+
+.contato--link {
+  color: #FF6464;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .contato .container {
+      background-color: #fff;
+      padding: 2rem 3rem 3rem;
+      border-radius: 8px;
+  }
+
+  .contato .container:hover {
+    border: 2px solid #00A8CC;
+    box-shadow: 6px 6px 0px #00A8CC;
+    border-radius: 8px;
+  }
+}
