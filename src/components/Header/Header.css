@@ -1,0 +1,35 @@
+header {
+    padding: 2rem .75rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 2.75rem;
+    margin: 0;
+    color: #21243D;
+}
+
+.header--pre-title {
+    margin: 0;
+    font-size: 1.125rem;
+    color: #21243D;
+}
+
+.header--subtitle {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #21243DCA;
+}
+
+.header--btn {
+    background-color: #FF6464;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
