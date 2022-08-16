@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card--img {
+    max-width: 350px;
+}
+
+.card--title {
+    color: #0A2A42;
+    font-size: 1.5rem;
+    margin: .35rem 0 0;
+}
+
+.card--tags {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: .35rem;
+}
+
+.card--technology {
+    background-color: #2A326F;
+    color: #fff;
+    font-weight: 500;
+    font-size: .85rem;
+    text-align: center;
+    max-width: max-content;
+    padding: .25rem .75rem;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.card--project-type {
+    color: #8695A4;
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.card--links {
+    font-weight: 600;
+    font-size: .9rem;
+    margin:.35rem 0 0;
+}
+
+.card--links a {
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+.card--description {
+    color: #21243D;
+    line-height: 130%;
+    letter-spacing: .075rem;
+}

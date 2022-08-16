@@ -1,8 +1,9 @@
 header {
     padding: 2rem .75rem;
-    min-height: 50vh;
+    min-height: 100vh;
     display: grid;
     place-items: center;
+    background-color: #ffffff;
 }
 
 

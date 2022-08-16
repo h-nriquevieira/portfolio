@@ -1,0 +1,12 @@
+.projetos {
+    display: grid;
+    place-items: center;
+    padding: 2rem .75rem;
+}
+
+.projetos--title {
+    font-size: 2rem;
+    color: #0A2A42;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+  }
