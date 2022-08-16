@@ -1,6 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1.5rem;
 }
 
 .card--img {
@@ -53,4 +54,39 @@
     color: #21243D;
     line-height: 130%;
     letter-spacing: .075rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        display: grid;
+        grid-template-areas: 'img title'
+                             'img tags'
+                             'img links'
+                             'img description';
+        column-gap: 1rem;
+        align-items: center;
+    }
+
+    .card--img {
+        grid-area: img;
+    }
+
+    .card--title {
+        grid-area: title;
+        font-size: 1.75rem;
+    }
+
+    .card--tags {
+        grid-area: tags;
+    }
+
+    .card--links {
+        grid-area: links;
+    }
+
+    .card--description {
+        grid-area: description;
+        margin-top: .25rem;
+        font-size: 1rem;
+    }
 }
