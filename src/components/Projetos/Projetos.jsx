@@ -18,7 +18,7 @@ function Projetos() {
   ))
 
   return (
-    <section className="projetos">
+    <section className="projetos" id="projetos">
       <div className="container">
         <h3 className="projetos--title">Projetos</h3>
         {projectCards}

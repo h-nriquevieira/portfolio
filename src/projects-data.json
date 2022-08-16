@@ -1,12 +1,32 @@
 [
     {
         "title": "AutoOn",
-        "img": "/project-1.png",
+        "img": "/autoon.png",
         "tags": ["React"],
         "type": "Projeto de estudo",
         "url": "",
         "demo": true,
-        "github": "",
+        "github": "https://github.com/h-nriquevieira/autoon",
         "description": "Projeto fictício de concessionária de veículos feito em React. Cada veículo recebe um card gerado dinamicamente, mapeando os dados recebidos em JSON e gerando um novo componente para cada entrada. Inicialmente, foi utilizado um JSON fictício. O próximo passo é implementar um banco de dados real."
+    },
+    {
+        "title": "No Filter",
+        "img": "/no-filter.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "type": "Freelance",
+        "url": "https://nofilteradvanced.com/",
+        "demo": false,
+        "github": "",
+        "description": "Landing page feita para uma clínica de estética em São Mateo, Califórnia. A cliente providenciou o design através do Figma, e o site foi feito com HTML, CSS e JavaScript."
+    },
+    {
+        "title": "Mera Marketing",
+        "img": "/mera.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "type": "Freelance",
+        "url": "https://www.meramarketing.com.br/",
+        "demo": false,
+        "github": "",
+        "description": "Agência de publicidade voltada para profissionais da saúde. Novamente, recebi o design em um projeto do Figma e fui responsável pelo código. Destaco a integração com FormSubmit, para enviar o formulário via e-mail."
     }
 ]

@@ -13,7 +13,7 @@ function CardProjeto(props) {
               <div className="card--project-type">{props.type}</div>
           </div>
           <p className="card--links">
-              <a href={props.url}>{props.demo ? "Visitar Demo" : "Visitar Página"}</a> | {props.github &&<a href="">GitHub</a>}
+              <a href={props.url}>{props.demo ? "Visitar Demo" : "Visitar Página"}</a> {props.github && <><span>| </span><a href={props.github}>GitHub</a></>}
           </p>
           <p className="card--description">
           {props.description}
