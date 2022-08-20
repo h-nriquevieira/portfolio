@@ -1,7 +1,7 @@
 .projetos {
     display: grid;
     place-items: center;
-    padding: 2rem .75rem;
+    padding: 2rem .75rem 0;
 }
 
 .projetos--title {
