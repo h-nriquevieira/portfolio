@@ -4,7 +4,7 @@
         "img": "/autoon.png",
         "tags": ["React"],
         "type": "Projeto de estudo",
-        "url": "",
+        "url": "https://autoon.netlify.app/",
         "demo": true,
         "github": "https://github.com/h-nriquevieira/autoon",
         "description": "Projeto fictício de concessionária de veículos feito em React. Cada veículo recebe um card gerado dinamicamente, mapeando os dados recebidos em JSON e gerando um novo componente para cada entrada. Inicialmente, foi utilizado um JSON fictício. O próximo passo é implementar um banco de dados real."
