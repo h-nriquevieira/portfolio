@@ -6,8 +6,8 @@ import iconLinkedIn from '../../assets/icon-linkedin.svg'
 function Footer() {
   return (
       <footer>
-          <a href=""><img src={iconGitHub} alt="" /></a>
-          <a href=""><img src={iconLinkedIn} alt="" /></a>
+          <a href="https://github.com/h-nriquevieira"><img src={iconGitHub} alt="" /></a>
+          <a href="https://www.linkedin.com/in/h-nriquevieira/"><img src={iconLinkedIn} alt="" /></a>
       </footer>
   );
 }
