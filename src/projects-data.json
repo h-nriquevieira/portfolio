@@ -5,7 +5,7 @@
         "tags": ["React", "Radix UI"],
         "type": "Freelance",
         "url": "https://santarosalia.com.br/",
-        "demo": ,
+        "demo": "",
         "github": "",
         "description": "Página feita para a Padaria Santa Rosália, de Sorocaba/SP. O projeto foi feito em React, seguindo o layout providenciado pelo cliente. Utilizei Radix UI Primitives para a seção de cardápio. Como próximo passo, estou estudando Gatsby para otimizar o tempo de carregamento da página."
     },
