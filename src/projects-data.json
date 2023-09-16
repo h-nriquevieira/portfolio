@@ -1,32 +1,48 @@
 [
-    {
-        "title": "Padaria Santa Rosália",
-        "img": "/santa-rosalia.png",
-        "tags": ["React", "Radix UI"],
-        "type": "Freelance",
-        "url": "https://santarosalia.com.br/",
-        "demo": "",
-        "github": "",
-        "description": "Página feita para a Padaria Santa Rosália, de Sorocaba/SP. O projeto foi feito em React, seguindo o layout providenciado pelo cliente. Utilizei Radix UI Primitives para a seção de cardápio. Como próximo passo, estou estudando Gatsby para otimizar o tempo de carregamento da página."
-    },
-    {
-        "title": "No Filter",
-        "img": "/no-filter.png",
-        "tags": ["JavaScript", "CSS", "HTML"],
-        "type": "Freelance",
-        "url": "https://nofilteradvanced.com/",
-        "demo": false,
-        "github": "",
-        "description": "Landing page feita para uma clínica de estética em São Mateo, Califórnia. A cliente providenciou o design através do Figma, e o site foi feito com HTML, CSS e JavaScript."
-    },
-    {
-        "title": "Mera Marketing",
-        "img": "/mera.png",
-        "tags": ["JavaScript", "CSS", "HTML"],
-        "type": "Freelance",
-        "url": "https://www.meramarketing.com.br/",
-        "demo": false,
-        "github": "",
-        "description": "Agência de publicidade voltada para profissionais da saúde. Novamente, recebi o design em um projeto do Figma e fui responsável pelo código. Destaco a integração com FormSubmit, para enviar o formulário via e-mail."
-    }
+  {
+    "title": "Budget Buddy",
+    "img": "/budget-buddy.png",
+    "tags": [
+      "React",
+      "React Router",
+      "Radix Themes",
+      "Supabase",
+      "Google Auth"
+    ],
+    "type": "Projeto pessoal",
+    "url": "https://budget-buddy-hvi.vercel.app",
+    "demo": "",
+    "github": "https://github.com/h-nriquevieira/BudgetBuddy",
+    "description": "Portal de finanças pessoais. Crie sua conta com e-mail ou login social, ou use a conta de demonstração para gerenciar suas finanças. Cadastre categorias de gasto com seu orçamento planejado, e então registre suas despesas. Conte com o Dashboard Budget Buddy para ter uma visão geral do seu mês."
+  },
+  {
+    "title": "Padaria Santa Rosália",
+    "img": "/santa-rosalia.png",
+    "tags": ["React", "Radix UI"],
+    "type": "Freelance",
+    "url": "https://santarosalia.com.br/",
+    "demo": "",
+    "github": "",
+    "description": "Página feita para a Padaria Santa Rosália, de Sorocaba/SP. O projeto foi feito em React, seguindo o layout providenciado pelo cliente. Utilizei Radix UI Primitives para a seção de cardápio. Como próximo passo, estou estudando Gatsby para otimizar o tempo de carregamento da página."
+  },
+  {
+    "title": "No Filter",
+    "img": "/no-filter.png",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "type": "Freelance",
+    "url": "https://nofilteradvanced.com/",
+    "demo": false,
+    "github": "",
+    "description": "Landing page feita para uma clínica de estética em São Mateo, Califórnia. A cliente providenciou o design através do Figma, e o site foi feito com HTML, CSS e JavaScript."
+  },
+  {
+    "title": "Mera Marketing",
+    "img": "/mera.png",
+    "tags": ["JavaScript", "CSS", "HTML"],
+    "type": "Freelance",
+    "url": "https://www.meramarketing.com.br/",
+    "demo": false,
+    "github": "",
+    "description": "Agência de publicidade voltada para profissionais da saúde. Novamente, recebi o design em um projeto do Figma e fui responsável pelo código. Destaco a integração com FormSubmit, para enviar o formulário via e-mail."
+  }
 ]
